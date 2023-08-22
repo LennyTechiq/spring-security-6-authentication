@@ -1,0 +1,86 @@
+body {
+      background-color: #f8f9fa; /* Light gray background color */
+}
+
+.sidebar {
+  background-color: #343a40; /* Dark gray sidebar background color */
+  color: #f8f9fa; /* Light text color */
+  height: 100vh; /* Make the sidebar full height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  padding-top: 20px; /* Add padding to top */
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on the right side */
+  z-index: 1000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+.brand-logo {
+    max-width: 30px; /* Adjust the logo width */
+    margin-right: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin: 0;
+  padding: 10px 0;
+  padding-left: 50px;
+}
+
+.sidebar ul li a {
+  color: #f8f9fa; /* Light text color */
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: #17a2b8; /* Hover color (aqua) */
+}
+
+.content {
+    margin-left: 120px; /* Match the sidebar width */
+    padding: 20px; /* Add padding to the content area */
+ }
+
+ .form-container {
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff; /* White background */
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+ }
+
+ .form-group label {
+   font-weight: bold;
+ }
+
+ .btn-primary {
+   background-color: #17a2b8; /* Aqua button color */
+   border: none;
+ }
+
+ .btn-primary:hover {
+   background-color: #138496; /* Darker aqua on hover */
+ }
+
+.footer {
+    background-color: #343a40; /* Dark gray footer background color */
+    color: #f8f9fa; /* Light text color */
+    padding: 20px 0; /* Add padding to top and bottom */
+    text-align: center;
+ }
